@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7abea8ba-7a41-4fa3-85eb-405e96676b08" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven-jar" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RomEy9Sm8Ym74LPetcK89IbYmi" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\leyou-portal\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7abea8ba-7a41-4fa3-85eb-405e96676b08" name="Default Changelist" comment="" />
+      <created>1570341714986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570341714986</updated>
+      <workItem from="1570341716189" duration="846000" />
+      <workItem from="1570682549347" duration="677000" />
+      <workItem from="1570704133621" duration="1402000" />
+      <workItem from="1570717338021" duration="613000" />
+      <workItem from="1570761204351" duration="43000" />
+      <workItem from="1571059311985" duration="3206000" />
+      <workItem from="1571065111496" duration="610000" />
+      <workItem from="1571128525075" duration="8619000" />
+      <workItem from="1571188019039" duration="4763000" />
+      <workItem from="1571207729211" duration="4224000" />
+      <workItem from="1571220647006" duration="1234000" />
+      <workItem from="1571277704485" duration="28000" />
+      <workItem from="1571277762643" duration="8197000" />
+      <workItem from="1571469608572" duration="1387000" />
+      <workItem from="1571483299261" duration="1301000" />
+      <workItem from="1571546919001" duration="11000" />
+      <workItem from="1571547034585" duration="1000" />
+      <workItem from="1571547194927" duration="49000" />
+      <workItem from="1571547264815" duration="154000" />
+      <workItem from="1571555218224" duration="633000" />
+      <workItem from="1571801476102" duration="140000" />
+      <workItem from="1571801626230" duration="1496000" />
+      <workItem from="1571819713320" duration="2416000" />
+      <workItem from="1571829437153" duration="3586000" />
+      <workItem from="1571877074520" duration="3295000" />
+      <workItem from="1571967684971" duration="61000" />
+      <workItem from="1571967765158" duration="1465000" />
+      <workItem from="1572076745887" duration="4110000" />
+      <workItem from="1572091357256" duration="2104000" />
+      <workItem from="1572143042413" duration="10375000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,58 @@
+server:
+  port: 10010 # 端口
+spring:
+  application:
+    name: leyou-gateway # 服务名
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka # 注册地址
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true # 使用ip
+    ip-address: 127.0.0.1 # 指定本机
+    instance-id: ${spring.application.name}:${server.port} # 区分同一服务的不同实例的唯一标准
+zuul:
+  prefix: /api # 路由路径前缀
+  routes:
+    item-service: /item/**      #商品微服务的映射路径
+    search-service: /search/**  #搜索微服务的映射路径
+    user-service: /user/**      #用户微服务
+    auth-service: /auth/**      #授权中心微服务
+    cart-service: /cart/**      #购物车微服务
+    order-service: /order/**    #订单微服务
+  host:
+    socket-timeout-millis: 5000
+    connect-timeout-millis: 7000
+  sensitive-headers: # 配置禁止使用敏感头信息，否则set-cookie无效
+  #retryable: true
+  ignored-services:
+    - upload-service # 忽略upload-service服务
+  add-host-header: true # 添加地址头信息
+ribbon:
+  ReadTimeout: 10000 # ribbon读取通信超时时间(ms)
+  ConnectTimeout: 10000 # ribbon连接超时时间(ms)
+  #  MaxAutoRetries: 1
+  #  MaxAutoRetriesNextServer: 1
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          #配置hystrix的超时时间，要大于(RibbonReadTimeout + RibbonConnectTimeout) * (MaxAutoRetries + 1) * (MaxAutoRetriesNextServer + 1)
+          thread:
+            timeoutInMilliseconds: 40000 # 熔断超时时长：40000ms
+leyou:
+  jwt:
+    pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: LY_TOKEN
+  filter:
+    allowPaths:
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item
+

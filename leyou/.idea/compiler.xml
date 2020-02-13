@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leyou-service" />
+        <module name="leyou-upload" />
+        <module name="leyou-search" />
+        <module name="leyou-goods-web" />
+        <module name="leyou-auth-service" />
+        <module name="leyou-gateway" />
+        <module name="leyou-user-service" />
+        <module name="leyou-registry" />
+        <module name="leyou-cart" />
+        <module name="leyou-auth-common" />
+        <module name="leyou-interface" />
+        <module name="leyou-sms" />
+        <module name="leyou-user-interface" />
+        <module name="leyou-order" />
+        <module name="leyou-commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou-auth" target="1.8" />
+      <module name="leyou-auth-common" target="1.8" />
+      <module name="leyou-auth-service" target="1.8" />
+      <module name="leyou-cart" target="1.8" />
+      <module name="leyou-commons" target="1.8" />
+      <module name="leyou-dependencies" target="1.8" />
+      <module name="leyou-elasticsearch" target="1.8" />
+      <module name="leyou-gateway" target="1.8" />
+      <module name="leyou-goods-web" target="1.8" />
+      <module name="leyou-interface" target="1.8" />
+      <module name="leyou-item" target="1.8" />
+      <module name="leyou-order" target="1.8" />
+      <module name="leyou-registry" target="1.8" />
+      <module name="leyou-search" target="1.8" />
+      <module name="leyou-service" target="1.8" />
+      <module name="leyou-sms" target="1.8" />
+      <module name="leyou-upload" target="1.8" />
+      <module name="leyou-use-rinterface" target="1.8" />
+      <module name="leyou-user" target="1.8" />
+      <module name="leyou-user-interface" target="1.8" />
+      <module name="leyou-user-service" target="1.8" />
+      <module name="leyouuserinterface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leyou-auth" options="" />
+      <module name="leyou-auth-common" options="-parameters" />
+      <module name="leyou-auth-service" options="-parameters" />
+      <module name="leyou-cart" options="-parameters" />
+      <module name="leyou-commons" options="-parameters" />
+      <module name="leyou-dependencies" options="-parameters" />
+      <module name="leyou-elasticsearch" options="-parameters" />
+      <module name="leyou-gateway" options="-parameters" />
+      <module name="leyou-goods-web" options="-parameters" />
+      <module name="leyou-interface" options="-parameters" />
+      <module name="leyou-item" options="-parameters" />
+      <module name="leyou-order" options="-parameters" />
+      <module name="leyou-registry" options="-parameters" />
+      <module name="leyou-search" options="-parameters" />
+      <module name="leyou-service" options="-parameters" />
+      <module name="leyou-sms" options="-parameters" />
+      <module name="leyou-upload" options="-parameters" />
+      <module name="leyou-use-rinterface" options="-parameters" />
+      <module name="leyou-user" options="-parameters" />
+      <module name="leyou-user-interface" options="-parameters" />
+      <module name="leyou-user-service" options="-parameters" />
+      <module name="leyouuserinterface" options="-parameters" />
+    </option>
+  </component>
+</project>
