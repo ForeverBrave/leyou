@@ -38,7 +38,7 @@
 <!--        <spring-cloud.version>Finchley.SR1</spring-cloud.version>-->
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
         <mapper.starter.version>2.0.3</mapper.starter.version>
-        <mysql.version>8.0.15</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <pageHelper.starter.version>1.2.5</pageHelper.starter.version>
         <leyou.latest.version>1.0-SNAPSHOT</leyou.latest.version>
         <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
